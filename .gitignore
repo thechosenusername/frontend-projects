@@ -1,0 +1,44 @@
+# Local History for VS Code
+.history
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Node.js Tools for VS Code
+.ntvs_analysis.dat
+node_modules/
+
+# NPM package files
+package-lock.json
+
+# Yarn package files
+yarn.lock
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.test
+.env*.local
+
+# Windows
+.DS_Store
+Thumbs.db
